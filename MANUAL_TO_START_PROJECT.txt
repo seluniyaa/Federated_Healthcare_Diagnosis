@@ -15,12 +15,12 @@ Run each component manually in separate terminal windows:
   --------------------------------------------------------------------------------------
   cd "C:\Users\gkthi\Desktop\PROJECTS\Master project\Federated_Healthcare_Diagnosis\backend"
 
-# Setup (Run once on new PC):
+# Setup (Run once):
 python -m venv venv
 venv\Scripts\python.exe -m pip install -r requirements.txt
 venv\Scripts\python.exe init_real_databases.py
 
-# Run Server:
+# Run Server 
 venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
   -> Verify backend is online: Open http://127.0.0.1:8000/docs in your browser.
@@ -36,4 +36,7 @@ venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reloa
   # Start the Vite development server:
   npm.cmd run dev
 
-  -> Open http://localhost:3000/ in your browser.
+  -> Open http://localhost:3000/ in your browser.enkins   / doctor123  (Metro General Hospital)
+Hospital Admin       : admin_metro      / admin123   (Metro General Hospital)
+Research Coordinator : coordinator_lead / coord123   (Global Consortium Hub)
+========================================================================================================================
