@@ -13,14 +13,14 @@ Run each component manually in separate terminal windows:
   --------------------------------------------------------------------------------------
   TERMINAL 1: BACKEND SERVER (FastAPI)
   --------------------------------------------------------------------------------------
-  cd "C:\Users\gkthi\Desktop\PROJECTS\Master project\Federated_Healthcare_Diagnosis\backend"
+  cd backend
 
-# Setup (Run once):
+# Setup (Run once on new PC):
 python -m venv venv
 venv\Scripts\python.exe -m pip install -r requirements.txt
 venv\Scripts\python.exe init_real_databases.py
 
-# Run Server 
+# Run Server:
 venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
   -> Verify backend is online: Open http://127.0.0.1:8000/docs in your browser.
@@ -28,7 +28,7 @@ venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reloa
   --------------------------------------------------------------------------------------
   TERMINAL 2: FRONTEND CLIENT (React + Vite)
   --------------------------------------------------------------------------------------
-  cd "C:\Users\gkthi\Desktop\PROJECTS\Master project\Federated_Healthcare_Diagnosis\frontend"
+  cd frontend
 
   # Install frontend dependencies:
   npm.cmd install
@@ -36,7 +36,4 @@ venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000 --reloa
   # Start the Vite development server:
   npm.cmd run dev
 
-  -> Open http://localhost:3000/ in your browser.enkins   / doctor123  (Metro General Hospital)
-Hospital Admin       : admin_metro      / admin123   (Metro General Hospital)
-Research Coordinator : coordinator_lead / coord123   (Global Consortium Hub)
-========================================================================================================================
+  -> Open http://localhost:3000/ in your browser.
