@@ -135,6 +135,14 @@ if %errorlevel% neq 0 (
 ) else (
     echo [OK] Frontend dependencies installed successfully.
 )
+
+echo [INFO] Running npm audit fix --force...
+call %NPM_EXEC% audit fix --force
+if %errorlevel% neq 0 (
+    echo [WARNING] npm audit fix reported warnings or issues.
+) else (
+    echo [OK] Frontend dependencies audited and fixed.
+)
 cd /d "%ROOT_DIR%"
 
 :FINISH_SETUP
