@@ -16,7 +16,6 @@ Run each component manually in separate terminal windows:
   --------------------------------------------------------------------------------------
   TERMINAL 1: BACKEND SERVER (FastAPI)
   --------------------------------------------------------------------------------------
-  cd "C:\Users\gkthi\Desktop\PROJECTS\Master project\Federated_Healthcare_Diagnosis\backend"
 
   # If virtualenv is not created yet:
   python -m venv venv
