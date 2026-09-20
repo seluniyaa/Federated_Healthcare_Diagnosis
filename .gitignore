@@ -1,0 +1,79 @@
+# ==========================================
+# Project Documentation & Architecture Diagrams
+# ==========================================
+Project_Proposal_Federated_Healthcare_Diagnosis.md
+PROJECT_DOCUMENTATION.md
+Phase1_Architecture_Diagram.png
+Master_Thesis_Federated_Healthcare_Diagnosis.md
+HOW_TO_USE_ROLES_GUIDE.txt
+project_info_and_comparison.txt
+
+# ==========================================
+# Python & Backend Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+backend/venv/
+ENV/
+env/
+ENV/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Node.js & Frontend Artifacts
+# ==========================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.log
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs & Temporary Files
+*.log
+*.tmp
